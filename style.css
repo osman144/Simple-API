@@ -1,7 +1,13 @@
 #movies img, #movie img{
-    width:100%;
+    width:70%;
 }
 
+
 #movies .col-md-3 .well{
-    height: 390px;
+    height: 410px;
 }
+
+#movies .col-md-3 img{
+    height: 240px;
+}
+

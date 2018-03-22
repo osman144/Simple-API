@@ -46,4 +46,11 @@ function getMovies(searchText){
     });
 };
 
+function movieSelected(){
+    //Passing data through local session storage, data clears out when browser closed 
+    sessionStorage.setItem('movieId', id);
+    window.location = 'movie.html';
+    return false;
+}
+
 
